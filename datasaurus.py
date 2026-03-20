@@ -32,3 +32,6 @@ plt.subplots_adjust(top=0.92)
 g.fig.suptitle("The Datasaurus Dozen: Same Statistics, Different Visuals", fontsize=18)
 
 plt.show()
+
+plt.savefig("datasaurus_result.png", dpi=300)
+print("그래프가 'datasaurus_result.png' 파일로 저장되었습니다!")
